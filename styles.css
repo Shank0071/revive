@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     .container11,
     .container2,
     .container3,
