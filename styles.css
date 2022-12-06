@@ -32,6 +32,7 @@ body {
     padding: 10px;
     align-items: center;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .nav li {
@@ -49,6 +50,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media(max-width: 500px) {
+    .container11,
+    .container2,
+    .container3,
+    .container411 {
+        flex-direction: column-reverse;
+        gap: 2rem !important;
+    }
+    .container112 img {
+        margin: 0 auto;
+    }
+
+    .container411 {
+        gap: 5rem !important;
+    }
 }
 
 .white {
